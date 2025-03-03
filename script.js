@@ -10,6 +10,7 @@ for (let i = 0; i < panel.length; i++) {
         for (let j = 0; j < panel.length; j++) {
             panel[j].classList.remove("active");
         }
+        this.classList.add("active");
     });
 }
         
